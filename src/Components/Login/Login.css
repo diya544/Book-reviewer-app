@@ -1,5 +1,5 @@
 
-body {
+/*body {
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -35,4 +35,59 @@ button:hover {
 label{
     display: block;
     margin: 10px 0 5px;
+}*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+    
+    background-image: url('/public/p1.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Playfair Display', serif;
+}
+
+.login-container {
+    background-color: rgba(201, 161, 109, 0.9); 
+    padding: 40px;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 15px; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+    width: 100%;
+    max-width: 400px; 
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 25px;
+    color: #333; 
+    font-size: 26px;
+    font-weight: 700; 
+}
+
+input {
+    display: block;
+    margin: 12px auto;
+    padding: 12px;
+    width: 90%; 
+    box-sizing: border-box;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+input:focus {
+    border-color: #007bff; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
 }

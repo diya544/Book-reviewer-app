@@ -4,12 +4,28 @@ function Register(){
     const [username, setUsername]=useState('');
     const [email, setEmail]=useState('');
     const [password, setPassword]=useState('');
+    const [errorMessage, setErrorMessage] = useState('');
+    const [successMessage, setSuccessMessage] = useState('');
 
     const handlesubmit=(event)=>{
         event.preventDefault();
-        console.log('Username:',username);
+
+        if (localStorage.getItem(username)) {
+            setErrorMessage('Username already exists. Please choose a different one.');
+            return;
+        }
+
+        localStorage.setItem(username, password);
+        setSuccessMessage('Registration successful.');
+        setErrorMessage('');
+          
+        setUsername('');
+        setEmail('');
+        setPassword('');
+
+        /*console.log('Username:',username);
         console.log('Email:',email);
-        console.log('Password:',password);
+        console.log('Password:',password);*/
     };
     return(
         <div className='login-container'>
@@ -48,6 +64,8 @@ function Register(){
             <button type="submit">Register</button>
 
         </form>
+        {errorMessage && <p className="error-message">{errorMessage}</p>}
+            {successMessage && <p className="success-message">{successMessage}</p>}
         </div>
     );
   
