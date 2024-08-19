@@ -14,7 +14,7 @@ const books = [
     title: 'The Shining',
     author: 'Stephen King',
     cover: '/h2.webp',
-    teaser: 'Frankenstein, often considered the first science fiction novel, tells the story of Victor Frankenstein, a scientist who creates a grotesque creature through unorthodox experiments. The creature, rejected by society, seeks revenge on his creator, leading to a harrowing tale of isolation, despair, and moral consequences.',
+    teaser:'The Shining follows Jack Torrance, his wife Wendy, and their young son Danny as they move into the isolated Overlook Hotel for the winter. As Jack slowly descends into madness due to the hotel\'s supernatural influence, Danny\'s psychic abilities reveal the dark secrets of the hotel, leading to a chilling and suspenseful climax.',
     rating: '4.5/5',
     downloadLink: 'https://englishprofi.com.ua/wp-content/uploads/Stephen-King-The-Shining.pdf'
   },
@@ -22,7 +22,7 @@ const books = [
     title: 'The Exorcist',
     author: 'William Peter Blatty',
     cover: '/h3.jpg',
-    teaser: 'The Shining follows Jack Torrance, his wife Wendy, and their young son Danny as they move into the isolated Overlook Hotel for the winter. As Jack slowly descends into madness due to the hotel\'s supernatural influence, Danny\'s psychic abilities reveal the dark secrets of the hotel, leading to a chilling and suspenseful climax.',
+    teaser: 'The Exorcist by William Peter Blatty tells the eerie tale of a young girl named Regan, whose disturbing behavior leads her mother to seek help from an exorcist. The novel explores the terrifying clash between the forces of good and evil in a gripping, atmospheric story.',
     rating: '4.4/5',
     downloadLink: 'http://www.geocities.ws/thebookstore/the%20exorcist.pdf'
   },
@@ -30,7 +30,7 @@ const books = [
     title: 'Frankenstein',
     author: 'Mary Shelley',
     cover: '/h4.jpg',
-    teaser: 'The Haunting of Hill House tells the story of four people who arrive at a supposedly haunted mansion to investigate its dark history. As the psychological and supernatural forces at play intensify, they begin to question their own sanity, resulting in a gripping and eerie narrative.',
+    teaser: 'Frankenstein, often considered the first science fiction novel, tells the story of Victor Frankenstein, a scientist who creates a grotesque creature through unorthodox experiments. The creature, rejected by society, seeks revenge on his creator, leading to a harrowing tale of isolation, despair, and moral consequences.',
     rating: '4.6/5',
     downloadLink: 'https://www.goodreads.com/book/show/19256.The_Haunting_of_Hill_House'
   },
@@ -38,7 +38,7 @@ const books = [
     title: 'It',
     author: 'Stephen King',
     cover: '/h5.jpg',
-    teaser: 'Bird Box is a post-apocalyptic horror novel where an unseen entity drives people to deadly violence upon sight. The story follows Malorie and her two children as they navigate a world gone mad, blindfolded, to avoid the creatures and find a safe haven.',
+    teaser: 'A chilling tale set in the small town of Derry, where a group of children face an ancient, shape-shifting entity that awakens every 27 years to feed on the town\'s fear. The story weaves together the children\'s battle against this monstrous force in their youth and their return to Derry as adults to confront it once more. King\'s novel explores themes of friendship, fear, and the loss of innocence, all while delving into the terrifying depths of the human psyche.',
     rating: '4.7/5',
     downloadLink: 'https://clicklibrary.files.wordpress.com/2018/09/it-by-stephen-king.pdf'
   },
