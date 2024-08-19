@@ -1,39 +1,39 @@
-/* src/Components/Genres/GenrePage.css */
+
 .genre-page { 
     background-image: url('/public/vinn.jpg'); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column; /* Stack containers vertically */
-    justify-content: flex-start; /* Align containers at the top */
+    flex-direction: column; 
+    justify-content: flex-start; 
     align-items: center;
     height: fit-content;
     margin: 0;
-    padding-top: 50px; /* Creates the gap between the top of the page and the first container */
+    padding-top: 50px; 
 }
 
 .genre-container {
     display: flex;
-    justify-content: space-between; /* Space out genres within the container */
-    width: 70%; /* Controls overall width of the container */
-    background-color: rgba(255, 255, 255, 0.1); /* Makes the container translucent */
+    justify-content: space-between; 
+    width: 70%; 
+    background-color: rgba(255, 255, 255, 0.1); 
     padding: 20px;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
-    margin-bottom: 20px; /* Space between each container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px; 
 }
 
 .genre-link {
     text-align: center;
     text-decoration: none;
     color: black;
-    width: 22%; /* Four items per container, with space between them */
-    box-sizing: border-box; /* Ensures padding and border are included in width */
+    width: 22%; 
+    box-sizing: border-box;
 }
 
 .genre-image {
-    width: 100%;  /* Make the image fill the genre-link container */
+    width: 100%;  
     height:200px; 
     object-fit: cover;
     border-radius: 5px;
@@ -43,5 +43,5 @@
 .genre-name {
     color: rgb(15, 16, 16);
     margin-top: 8px;
-    font-size: 16px; /* Slightly larger font */
+    font-size: 16px; 
 }
