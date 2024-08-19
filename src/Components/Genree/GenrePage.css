@@ -1,0 +1,47 @@
+/* src/Components/Genres/GenrePage.css */
+.genre-page { 
+    background-image: url('/public/vinn.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; /* Stack containers vertically */
+    justify-content: flex-start; /* Align containers at the top */
+    align-items: center;
+    height: fit-content;
+    margin: 0;
+    padding-top: 50px; /* Creates the gap between the top of the page and the first container */
+}
+
+.genre-container {
+    display: flex;
+    justify-content: space-between; /* Space out genres within the container */
+    width: 70%; /* Controls overall width of the container */
+    background-color: rgba(255, 255, 255, 0.1); /* Makes the container translucent */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    margin-bottom: 20px; /* Space between each container */
+}
+
+.genre-link {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 22%; /* Four items per container, with space between them */
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+.genre-image {
+    width: 100%;  /* Make the image fill the genre-link container */
+    height:200px; 
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.genre-name {
+    color: rgb(15, 16, 16);
+    margin-top: 8px;
+    font-size: 16px; /* Slightly larger font */
+}

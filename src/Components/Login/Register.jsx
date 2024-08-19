@@ -35,6 +35,7 @@ function Register() {
   };
 
   return (
+    <div className='reg-page'>
     <div className='login-container'>
       <h2>Registration Page</h2>
       <form onSubmit={handleSubmit}>
@@ -72,6 +73,7 @@ function Register() {
       </form>
       {errorMessage && <p className="error-message">{errorMessage}</p>}
       {successMessage && <p className="success-message">{successMessage}</p>}
+    </div>
     </div>
   );
 }

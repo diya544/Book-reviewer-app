@@ -36,7 +36,20 @@ label{
     display: block;
     margin: 10px 0 5px;
 }*/
-body {
+.login-page  {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+    
+    background-image: url('/public/p1.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Playfair Display', serif;
+}
+.reg-page{
     display: flex;
     justify-content: center;
     align-items: center; 
