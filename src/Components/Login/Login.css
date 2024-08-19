@@ -1,10 +1,8 @@
 
-<<<<<<< HEAD
-body {
-=======
-/*body {
+
+/*ody {
     display: flex;
-    justify-content: center;
+    
     height: 100vh;
     background-image: url('/public/p1.jpg');
     background-position: center;
@@ -53,7 +51,6 @@ label{
     font-family: 'Playfair Display', serif;
 }
 .reg-page{
->>>>>>> 594bc11f93e941b0e38228f1393e3904769c7412
     display: flex;
     justify-content: center;
     align-items: center; 
