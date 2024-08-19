@@ -7,7 +7,7 @@ const genres = [
     { name: 'Horror', imgSrc: '/horror.jpg' },
     { name: 'Fantasy', imgSrc: '/fantt.jpg' },
     { name: 'Adventure', imgSrc: '/for advn.jpg' },
-    { name: 'Mystery & Thriller', imgSrc: '/mystery.jpg' },
+    { name: 'Mystery', imgSrc: '/mystery.jpg' },
     { name: 'Sci-Fi', imgSrc: '/scifi.jpg' },
     { name: 'Historical Fiction', imgSrc: '/hist fic.jpg' },
     { name: 'Non-fiction', imgSrc: '/nonfiction.jpg' },

@@ -26,6 +26,8 @@ import Register from './Components/Login/Register';
 import Romance from './Components/Romance/Romance.jsx';
 import Horror from './Components/Horror/Horror.jsx';
 import GenrePage from './Components/Genree/GenrePage.jsx';
+import Fantasy from './Components/Fantasy/Fantasy.jsx';
+import Mystery from './Components/Mystery/Mystery.jsx';
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
           <Route path="/romance" element={<Romance />} />
           <Route path="/horror" element={<Horror/>}/>
           <Route path="/genres" element={<GenrePage />} />
+          <Route path="/fantasy" element={<Fantasy/>}/>
+          <Route path="/mystery" element={<Mystery/>}/>
         </Routes>
       </div>
     </Router>
