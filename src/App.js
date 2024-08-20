@@ -28,7 +28,7 @@ import Horror from './Components/Horror/Horror.jsx';
 import GenrePage from './Components/Genree/GenrePage.jsx';
 import Fantasy from './Components/Fantasy/Fantasy.jsx';
 import Mystery from './Components/Mystery/Mystery.jsx';
-
+import GreekMythology from './Components/GreekMythology/GreekMythology.jsx'
 function App() {
   return (
     <Router>
@@ -41,6 +41,7 @@ function App() {
           <Route path="/genres" element={<GenrePage />} />
           <Route path="/fantasy" element={<Fantasy/>}/>
           <Route path="/mystery" element={<Mystery/>}/>
+          <Route path="/greekmythology" element={<GreekMythology/>}/>
         </Routes>
       </div>
     </Router>
