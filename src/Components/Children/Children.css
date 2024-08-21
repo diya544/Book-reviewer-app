@@ -1,0 +1,113 @@
+.children-page {
+    padding: 60px;
+    padding-top: 80px;
+    margin-top: 0px;
+    background-image: url('/public/child.avif'); /* Use a background suitable for children */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: whitesmoke; /* A vibrant, playful color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Comic Sans MS", cursive, sans-serif; /* A fun, child-friendly font */
+    margin-bottom: 30px;
+  }
+  
+  .book-list {
+    list-style-type: none;
+    padding-top: 20px;
+  }
+  
+  .book-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    background: rgba(187, 182, 182, 0.5); 
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 40px 0px 40px 0px;
+    overflow: hidden;
+  }
+  
+  .book-cover {
+    width: 300px;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .book-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 100px;
+    text-align: left;
+  }
+  
+  .book-details h2 {
+    margin-left: 0;
+    font-size: 1.8em;
+    color: #333;
+    white-space: nowrap;
+  }
+  
+  .book-details p {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #0c0b0b;
+  }
+  
+  .book-details .author {
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  .book-details p.teaser {
+    font-size: 1em;
+    width: 100%;
+    font-weight: 600;
+    max-width: 1000px;
+    margin: 10px 0;
+    color: #020202;
+  }
+  
+  .download-button {
+    margin-top: 10px;
+  }
+  
+  .download-button button {
+    background-color: #ff8c42; /* A bright, inviting color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .download-button button:hover {
+    background-color: #ff7043; /* A slightly darker shade */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .download-button button:active {
+    background-color: #ff5722; /* A deeper shade on click */
+  }
+  
+  .book-details .blurb-label {
+    color: #0c0b0b;
+    font-weight: bold;
+  }
+  
