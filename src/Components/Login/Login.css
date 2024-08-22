@@ -1,62 +1,9 @@
-
-
-/*ody {
-    display: flex;
-    
-    height: 100vh;
-    background-image: url('/public/p1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.login-container{
-   
-    text-align: center;
-    margin: 50px auto;
-    max-width: 100%;
-}
-input{
-    display: block;
-    margin: 10px auto;
-    padding: 8px;
-    width: 100%;
-    box-sizing: border-box;
-}
-button{
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-button:hover {
-    background-color: #0056b3;
-}
-label{
-    display: block;
-    margin: 10px 0 5px;
-}*/
-.login-page  {
+body {
     display: flex;
     justify-content: center;
     align-items: center; 
     height: 100vh;
     margin: 0;
-    
-    background-image: url('/public/p1.jpg'); 
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Playfair Display', serif;
-}
-.reg-page{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    height: 100vh;
-    margin: 0;
-    
     background-image: url('/public/p1.jpg'); 
     background-position: center;
     background-size: cover;
@@ -67,8 +14,10 @@ label{
 .login-container {
     background-color: rgba(201, 161, 109, 0.9); 
     padding: 40px;
-    margin-left: 500px;
-    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     border-radius: 15px; 
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
     width: 100%;
@@ -102,6 +51,20 @@ input:focus {
 }
 
 button {
-    padding: 12px 20px;
-    background-color: #e27115;
+    padding: 12px 12px;
+    background-color: #1ea400;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px; /* Adds space below each button */
+    margin-right: 10px ;
+}
+
+button:last-of-type {
+    margin-bottom: 0; /* Removes bottom margin for the last button */
+}
+
+button:hover {
+    background-color: #0056b3;
 }

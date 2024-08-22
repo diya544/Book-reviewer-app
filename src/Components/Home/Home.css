@@ -1,0 +1,135 @@
+/* Apply full-page background image */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('/public/p1.jpg'); /* Adjust path to background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Full-height container for content */
+.home-container {
+    background-color: rgba(163, 117, 75, 0.9); 
+    padding: 20px 40px; /* Increased padding on the sides */
+    margin: 0 auto; /* Center the container */
+    margin-top: 30px;
+    border-radius: 10px; /* Border-radius */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow */
+    width: calc(100% - 80px); /* Adjusted width to match the padding */
+    max-width: 1000px; /* Max-width */
+    text-align: center;
+    position: relative; /* For positioning the carousel */
+    max-height: calc(100vh - 20px); /* Ensure container does not exceed viewport height */
+    overflow-y: auto; /* Allow scrolling if content exceeds container height */
+}
+
+/* Style for the header section */
+.home-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0; /* Adjusted padding */
+    text-align: center;
+}
+
+.logo {
+    width: 70px; /* Logo size */
+    height: auto;
+    margin-right: 8px; /* Margin */
+}
+
+.home-header h1 {
+    font-size: 2rem; /* Font size */
+    margin: 0;
+    color: #fff; /* Text color */
+}
+
+/* Style for the quote section */
+.quote-section {
+    margin: 10px 0; /* Reduced margin */
+    text-align: center;
+}
+
+.quote-section p {
+    font-size: 1.25rem; /* Font size */
+    font-style: italic;
+    color: #fff; /* Text color */
+}
+
+/* Style for the embark button */
+.embark-button {
+    display: inline-block;
+    padding: 8px 16px; /* Padding */
+    font-size: 1rem; /* Font size */
+    color: #fff;
+    background-color: #1c9711;
+    border: none;
+    border-radius: 4px; /* Border-radius */
+    text-decoration: none;
+    margin: 5px 0 10px; /* Reduced bottom margin to decrease space after the button */
+    transition: background-color 0.3s ease;
+}
+
+.embark-button:hover {
+    background-color: #b34500;
+}
+
+/* Style for the content section with carousels */
+.content-section {
+    display: flex;
+    justify-content: space-between; /* Align items with space between */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 40px; /* Reduced gap */
+    margin: 10px 0; /* Reduced margin to decrease space after button */
+}
+
+/* Style for carousel containers */
+.carousel-container {
+    flex: 1;
+    min-width: 100px; /* Minimum width */
+    max-width: 100%; /* Max-width */
+    box-sizing: content-box;
+    padding: 8px 20px; /* Increased padding to create space for arrows */
+    color: #fff;
+    justify-content: center; /* Center images horizontally */
+}
+
+/* Style for carousel images */
+.carousel-container img {
+    width: 100%; /* Image width */
+    height: auto;
+    max-height: 200px; /* Reduced height */
+    object-fit: contain; /* Ensure image fits without cropping */
+    display: block; /* Display as block */
+    margin: 0 auto; /* Center image horizontally */
+}
+
+/* Style for the contact footer section */
+.contact-footer {
+    padding: 2px; /* Padding */
+    margin-top: 20px; /* Reduced margin-top to decrease gap */
+    font-size: small;
+    background-color: #3333337e;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-footer h3 {
+    margin: 0;
+}
+
+.social-media {
+    margin-top: 5px; /* Reduced margin */
+}
+
+.social-media a {
+    margin: 0 5px; /* Margin */
+    display: inline-block;
+}
+
+.social-media img {
+    width: 30px; /* Icon size */
+    height: auto;
+}
