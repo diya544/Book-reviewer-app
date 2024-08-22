@@ -28,6 +28,11 @@ import Horror from './Components/Horror/Horror.jsx';
 import GenrePage from './Components/Genree/GenrePage.jsx';
 import Fantasy from './Components/Fantasy/Fantasy.jsx';
 import Mystery from './Components/Mystery/Mystery.jsx';
+import GreekMythology from './Components/GreekMythology/GreekMythology.jsx'
+import Adventure from './Components/Adventure/Adventure.jsx';
+import SciFi from './Components/SciFi/SciFi.jsx';
+import HistoricalFiction from './Components/Historical/HistoricalFiction.jsx';
+import Poetry from './Components/Poetry/Poetry.jsx';
 
 function App() {
   return (
@@ -41,6 +46,11 @@ function App() {
           <Route path="/genres" element={<GenrePage />} />
           <Route path="/fantasy" element={<Fantasy/>}/>
           <Route path="/mystery" element={<Mystery/>}/>
+          <Route path="/greek-mythology" element={<GreekMythology/>}/>
+          <Route path="/adventure" element={<Adventure/>}/>
+          <Route path="/sci-fi" element={<SciFi/>}/>
+          <Route path="/historical-fiction" element={<HistoricalFiction/>}/>
+          <Route path="/poetry" element={<Poetry/>}/>
         </Routes>
       </div>
     </Router>
