@@ -31,8 +31,11 @@ import Mystery from './Components/Mystery/Mystery.jsx';
 import GreekMythology from './Components/GreekMythology/GreekMythology.jsx'
 import Adventure from './Components/Adventure/Adventure.jsx';
 import SciFi from './Components/SciFi/SciFi.jsx';
+
 import HistoricalFiction from './Components/Historical/HistoricalFiction.jsx';
 import Poetry from './Components/Poetry/Poetry.jsx';
+
+import Children from './Components/Children/Children.jsx';
 
 function App() {
   return (
@@ -49,8 +52,12 @@ function App() {
           <Route path="/greek-mythology" element={<GreekMythology/>}/>
           <Route path="/adventure" element={<Adventure/>}/>
           <Route path="/sci-fi" element={<SciFi/>}/>
+
           <Route path="/historical-fiction" element={<HistoricalFiction/>}/>
           <Route path="/poetry" element={<Poetry/>}/>
+
+          <Route path="/children-books-" element={<Children/>}/>
+
         </Routes>
       </div>
     </Router>
