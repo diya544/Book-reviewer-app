@@ -1,4 +1,4 @@
-
+/* src/Components/Genres/GenrePage.css */
 .genre-page { 
     background-image: url('/public/vinn.jpg'); 
     background-position: center;
@@ -41,6 +41,7 @@
 }
 
 .genre-name {
+    font-family: fantasy ;
     color: rgb(15, 16, 16);
     margin-top: 8px;
     font-size: 16px; 

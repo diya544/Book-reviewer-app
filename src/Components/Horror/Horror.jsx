@@ -29,10 +29,10 @@ const books = [
   {
     title: 'Frankenstein',
     author: 'Mary Shelley',
-    cover: '/h4.jpg',
+    cover: '/frankenstein.jpg',
     teaser: 'Frankenstein, often considered the first science fiction novel, tells the story of Victor Frankenstein, a scientist who creates a grotesque creature through unorthodox experiments. The creature, rejected by society, seeks revenge on his creator, leading to a harrowing tale of isolation, despair, and moral consequences.',
     rating: '4.6/5',
-    downloadLink: 'https://www.goodreads.com/book/show/19256.The_Haunting_of_Hill_House'
+    downloadLink: 'https://www.planetebook.com/free-ebooks/frankenstein.pdf'
   },
   {
     title: 'It',

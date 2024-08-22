@@ -7,13 +7,15 @@ const genres = [
     { name: 'Horror', imgSrc: '/horror.jpg' },
     { name: 'Fantasy', imgSrc: '/fantt.jpg' },
     { name: 'Adventure', imgSrc: '/for advn.jpg' },
-    { name: 'Mystery & Thriller', imgSrc: '/mystery.jpg' },
+    { name: 'Mystery', imgSrc: '/mystery.jpg' },
     { name: 'Sci-Fi', imgSrc: '/scifi.jpg' },
     { name: 'Historical Fiction', imgSrc: '/hist fic.jpg' },
     { name: 'Non-fiction', imgSrc: '/nonfiction.jpg' },
     { name: 'Graphic Novels', imgSrc: '/graphic novel.jpg' },
     { name: 'Children books ', imgSrc: '/children.jpg' },
     { name: 'Greek Mythology', imgSrc: '/greekmyt.jpg' },
+    { name: 'Poetry', imgSrc: '/poetry.jpg' },
+
 ];
 
 function GenrePage() {
@@ -32,7 +34,7 @@ function GenrePage() {
                             <img src={genre.imgSrc} alt={genre.name} className="genre-image" />
                             <div className="genre-name">{genre.name}</div>
                         </Link>
-                    ))}
+                    ))}       
                 </div>
             ))}
         </div>
