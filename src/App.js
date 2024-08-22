@@ -23,19 +23,21 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Login from './Components/Login/Login';
 import Register from './Components/Login/Register';
-import Romance from './Components/Romance/Romance.jsx';
-import Horror from './Components/Horror/Horror.jsx';
-import GenrePage from './Components/Genree/GenrePage.jsx';
-import Fantasy from './Components/Fantasy/Fantasy.jsx';
-import Mystery from './Components/Mystery/Mystery.jsx';
-import GreekMythology from './Components/GreekMythology/GreekMythology.jsx'
-import Adventure from './Components/Adventure/Adventure.jsx';
-import SciFi from './Components/SciFi/SciFi.jsx';
+import Romance from './Components/Romance/Romance';
+import Horror from './Components/Horror/Horror';
+import GenrePage from './Components/Genree/GenrePage';
+import Fantasy from './Components/Fantasy/Fantasy';
+import Mystery from './Components/Mystery/Mystery';
+import GreekMythology from './Components/GreekMythology/GreekMythology'
+import Adventure from './Components/Adventure/Adventure';
+import SciFi from './Components/SciFi/SciFi';
 
-import HistoricalFiction from './Components/Historical/HistoricalFiction.jsx';
-import Poetry from './Components/Poetry/Poetry.jsx';
+import HistoricalFiction from './Components/Historical/HistoricalFiction';
+import Poetry from './Components/Poetry/Poetry';
 
-import Children from './Components/Children/Children.jsx';
+import Children from './Components/Children/Children';
+import NonFiction from './Components/NonFiction/NonFiction';
+import GraphicNovels from './Components/Graphic/Graphic';
 
 function App() {
   return (
@@ -57,6 +59,8 @@ function App() {
           <Route path="/poetry" element={<Poetry/>}/>
 
           <Route path="/children-books-" element={<Children/>}/>
+          <Route path="/non-fiction" element={<NonFiction/>}/>
+          <Route path="/graphic-novels" element={<GraphicNovels/>}/>
 
         </Routes>
       </div>

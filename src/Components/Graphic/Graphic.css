@@ -1,8 +1,8 @@
-.adventure-page {
+.graphic-novels-page {
     padding: 60px;
     padding-top: 80px;
     margin-top: 0px;
-    background-image: url('/public/adv.jpg'); 
+    background-image: url('/public/grap.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,9 +12,9 @@
   h1 {
     font-size: 3em;
     font-weight: bold;
-    color: #eee8e1;
+    color: #3c91e6; /* A more subdued color for nonfiction */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-family: "Abril Fatface", serif;
+    font-family: "Merriweather", serif; /* A different font to distinguish the genre */
     margin-bottom: 30px;
   }
   
@@ -27,21 +27,19 @@
     display: flex;
     align-items: flex-start;
     margin-bottom: 20px;
-    background: rgba(5, 5, 5, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(8, 8, 8, 0.918);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
     padding: 50px 0px 50px 0px;
     overflow: hidden;
-    width: 100%;
   }
   
   .book-cover {
     width: 300px;
-    height: 440px;
+    height: 460px;
     object-fit: cover;
     border-radius: 4px;
     margin-right: 20px;
-    margin-left: 30px;
   }
   
   .book-details {
@@ -51,7 +49,6 @@
     padding: 20px;
     padding-left: 100px;
     text-align: left;
-    width: 100%;
   }
   
   .book-details h2 {
@@ -74,9 +71,9 @@
   .book-details p.teaser {
     font-size: 1em;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 10px 0;
-    color: bisque;
+    color: #f0e68c; /* Khaki color for teaser text */
   }
   
   .download-button {
@@ -84,7 +81,7 @@
   }
   
   .download-button button {
-    background-color: #155505;
+    background-color: #3c91e6; /* Matches the header color */
     border: none;
     color: white;
     padding: 10px 20px;
@@ -99,15 +96,16 @@
   }
   
   .download-button button:hover {
-    background-color: #10a729;
-    transform: scale(1.05);
+    background-color: #1f77b4; /* Slightly darker shade */
+    transform: scale(1.05); /* Slight zoom effect on hover */
   }
   
   .download-button button:active {
-    background-color: #1caa1c;
+    background-color: #357ab6; /* Active button color */
   }
   
   .book-details .blurb-label {
     color: white;
     font-weight: bold;
   }
+  
