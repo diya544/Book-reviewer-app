@@ -93,8 +93,11 @@ const Home = () => {
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                         <img src="/facebook-icon.png" alt="Facebook" />
                     </a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://x.com/dmfyng" target="_blank" rel="noopener noreferrer">
                         <img src="/twitter-icon.png" alt="Twitter" />
+                    </a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/instagram-icon.webp" alt="Instagram" />
                     </a>
                 </div>
             </div>

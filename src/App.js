@@ -12,7 +12,7 @@ import Register from './Components/Login/Register';
 import PasswordReset from './Components/Login/PasswordReset';
 import Romance from './Components/Romance/Romance';
 import Horror from './Components/Horror/Horror';
-import GenrePage from './Components/Genree/GenrePage';
+import GenrePage from './Components/Genree/GenrePage'; // Correct path
 import Fantasy from './Components/Fantasy/Fantasy';
 import Mystery from './Components/Mystery/Mystery';
 import GreekMythology from './Components/GreekMythology/GreekMythology';
@@ -30,13 +30,15 @@ function App() {
         <Router>
             <div className='App'>
                 <Routes>
+                    {/* Default Route */}
+                    <Route path="/" element={<Home />} />
+
                     {/* Auth Routes */}
-                    <Route path="/" element={<Login />} />
+                    <Route path="/login" element={<Login />} />
                     <Route path="/register" element={<Register />} />
                     <Route path="/password-reset" element={<PasswordReset />} />
-                    
+
                     {/* Main Content Routes */}
-                    <Route path="/home" element={<Home />} />
                     <Route path="/romance" element={<Romance />} />
                     <Route path="/horror" element={<Horror />} />
                     <Route path="/fantasy" element={<Fantasy />} />
